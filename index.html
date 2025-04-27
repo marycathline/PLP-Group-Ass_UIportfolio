@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Link to Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Link to your CSS -->
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar Section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">UI Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+  
+          <!-- Dropdown Start -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Blog
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Road Map</a></li>
+              <li><a class="dropdown-item" href="#">Programming</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">About Css</a></li>
+              <li><a class="dropdown-item" href="#"> About Html</a></li>
+          
+            </ul>
+          </li>
+          <!-- Dropdown End -->
+  
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://wa.me/phonenumber" class="btn btn-light " target="_blank">
+              Hire Me
+            </a>
+          </li>
+  
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  
+<!-- Hero Section -->
+<section id="home" class="d-flex align-items-center" style="min-height: 90vh; background: url('images/backgroundimage.jpg') center center/cover no-repeat;">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h1 class="display-4">Hi iam Lorem ipsum</h1>
+        <h2 class="text-primary fw-bold">Web Developer</h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+           Nesciunt assumenda sapiente consectetur illum perspiciatis. Itaque molestias officia
+           dolores praesentium quam in reiciendis, vitae esse nisi, tempore nobis porro sunt nam!</p>
+
+        <div class="mt-4">
+          <a href="https://wa.me/phonenumber" class="btn btn-primary btn-lg me-3" target="_blank">
+            Hire Me
+          </a>
+          <a href="#projects" class="btn btn-primary btn-lg">
+            My Portfolio
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6 text-center">
+        <img src="images/hero.jpg" alt="Profile Image" class="img-fluid rounded-circle" style="max-width: 400px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Biography Section -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left side: Profile Picture -->
+      <div class="col-md-5 text-center mb-4 mb-md-0">
+        <img src="images/hero.jpg" alt="Profile Photo" class="img-fluid rounded">
+      </div>
+      
+      <!-- Right side: Biography Text -->
+      <div class="col-md-7">
+        <h5 class="text-uppercase text-muted">My Biography</h5>
+        <h2 class="mb-4">A Lead UI Designer & Web Developer Based In Location</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum nulla obcaecati neque consectetur,
+           incidunt quam quod, tempore facere 
+          minus reprehenderit sed debitis, ratione iusto similique eaque voluptas dolor tempora eligendi!</p>
+        
+        <ul class="list-unstyled mb-4">
+          <li><strong>Name:</strong>  Name</li>
+          <li><strong>Email:</strong>mailto@example.com</li>
+          <li><strong>Phone:</strong> +123 456 7890</li>
+        </ul>
+
+        <!-- Social Icons -->
+        <div class="mb-4">
+          <a href="#" class="btn btn-outline-dark btn-sm me-2"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="btn btn-outline-dark btn-sm me-2"><i class="bi bi-github"></i></a>
+          <a href="#" class="btn btn-outline-dark btn-sm me-2"><i class="bi bi-twitter"></i></a>
+        </div>
+
+        <!-- Buttons -->
+        <a href="https://wa.me/phonenumber" class="btn btn-primary btn-lg me-3" target="_blank">Hire Me</a>
+        <a href="cv.pdf" class="btn btn-primary btn-lg" download>Download CV</a>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- End Biography Section -->
+
+
+
+<!-- JavaScript for Bootstrap -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  window.addEventListener('scroll', function () {
+    const backToTopButton = document.querySelector('.back-to-top');
+    if (window.pageYOffset > 300) {
+      backToTopButton.style.display = 'block';
+    } else {
+      backToTopButton.style.display = 'none';
+    }
+  });
+</script>
+  
+</body>
+</html>
