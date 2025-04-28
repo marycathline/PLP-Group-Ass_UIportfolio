@@ -1,41 +1,101 @@
-Groups
-Web Development Group
+# Group Portfolio Website
 
-Heads up!
-One assignment submission is allowed per group.
-📜 Rules & Guidelines
-Challenges must be tackled in assigned or self-formed groups (2–5 members).
+## Project Overview
+This project is a group portfolio website developed as part of a web development course assignment. The website showcases the skills, services, and projects of our three-member team, highlighting our collaborative efforts in building a responsive and interactive portfolio. The site features a modern design with sections for a hero introduction, biography, services, skills, projects, testimonials, and contact information.
 
-Everyone must contribute—collaboration is a key part of the learning.
+### Live Demo
+[View the live demo here](https://your-live-demo-url.com) *
 
-Use only the technologies covered during the week, unless specified otherwise.
+## Features
+- **Responsive Design**: Adapts seamlessly to all screen sizes (mobile, tablet, desktop).
+- **Smooth Scrolling Navigation**: Navbar links scroll smoothly to sections with active link highlighting.
+- **Dark Mode Toggle**: Switch between light and dark themes for better accessibility and user preference.
+- **Interactive Search**: Search projects using a modal with real-time filtering and highlighting.
+- **Contact Form**: Fully functional form with validation and a success message on submission.
+- **Section Animations**: Sections fade in as they come into view using Intersection Observer.
+- **Hover Effects**: Cards in Services and Projects sections scale on hover for visual feedback.
+- **Testimonial Carousel**: Displays client testimonials with navigation indicators.
+- **Back-to-Top Button**: Appears on scroll for quick navigation to the top.
+- **Preloader & Scroll Progress**: A preloader enhances perceived performance, and a scroll progress bar provides visual feedback.
 
-Keep your code clean, well-commented, and pushed to GitHub (one repo per group).
+## Project Structure
+```
+PLP-Group-Ass_UIportfolio/
+│
+├── index.html        # Main HTML file with all sections
+├── styles.css        # CSS file for styling and animations
+├── script.js         # JavaScript file for interactivity
+├── images/           # Folder for images (e.g., backgroundimage.jpg, member1.jpg, project1.jpg)
+└── README.md         # Project documentation
+```
 
-Each group should include a brief README explaining the solution approach.
+## Technologies Used
+- **HTML5**: For semantic structure and content.
+- **CSS3**: For styling, animations, and responsive design (includes Google Fonts: Poppins),  with a custom `styles.css` file.
+- **JavaScript (ES6+)**: For interactivity and dynamic features, implemented in `script.js`.
+- **Bootstrap 5**:  For responsive design and components like the navbar, carousel, and cards.
+- **Bootstrap Icons**: For icons used in the navbar and back-to-top button.
+- **Git/GitHub**: For version control and collaboration.
+  
+## Setup and Installation
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-repo/PLP-Group-Ass_UIportfolio.git
+   ```
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd PLP-Group-Ass_UIportfolio
+   ```
+3. **Open the Website**:
+   - Open `index.html` in a web browser to view the site locally. No additional setup is required since all dependencies (e.g., Bootstrap) are loaded via CDN.
+   
+## Usage
+- **Navigation**: Use the navbar to jump to sections (Home, About, Services, Skills, Projects, Testimonials, Contact).
+- **Dark Mode**: Toggle between light and dark modes using the moon/sun icon in the navbar.
+- **Search Projects**: Click the search icon in the navbar, enter a project name, and filter the Projects section.
+- **Contact Form**: Fill out the form in the Contact section to send a message (mock submission with alert and success message).
+- **Explore Sections**: Scroll through the site to see animations, hover effects, and the testimonial carousel.
 
-📤 Submission
-Submit your GitHub repo link via the provided Google Form (shared every Monday).
+## Screenshots
+![Home Section](images/screenshot 0.png)
 
-Include names of all group members in the README and submission form.
-
-🧪 Evaluation Criteria (Rubric)
-
-Criteria	Weight
-Functionality & Requirements Met	30%
-Code Quality & Structure	20%
-UI/UX & Responsiveness	20%
-Collaboration & Teamwork	10%
-Creativity / Extra Features	10%
-Presentation (README, demo, etc)	10%
-👥 Participation
-Mandatory for all learners.
-
-Individual contribution is considered during evaluations.
-
-Consistent participation earns bonus points and recognition.
+- **Home Section**  
+  ![Home Section](images/Screenshot 1.png)
+- **Projects Section with Search**  
+  ![Projects Section](images/Screenshot 3.png)
+- **Dark Mode**  
+  ![Dark Mode](images/screenshot-dark-mode.png)
+  - **Team Members Section**
+  ![Team Members](images/Screenshot 2.png)
+  - **Services Section**
+  ![Services](images/Screenshot 4.png)
 
 
 
-Recreate the above portfolio website as is using HTML and CSS.
-Feel free to use bootstrap library
+## Team Members
+- **Mary Catherine**: Lead Developer - Developed the HTML structure, including all sections and Bootstrap integration. Responsible for the initial layout and content.
+
+- **[Team Member 2]**: Created the `styles.css` file, styled the hero section with a dark overlay, and ensured consistent typography and spacing.
+- **[John Brown]**: Added interactivity with `script.js`, including a working search feature, enhanced dark mode, smooth scrolling, back-to-top button, hover effects, and carousel indicators. Polished the `README.md` for submission.
+
+
+## Challenges and Solutions
+- **Challenge**: Contact form submission caused unintended scrolling.  
+  **Solution**: Locked scroll position during submission and ensured `e.preventDefault()` was called.
+- **Challenge**: Search functionality was initially a prompt, lacking UX appeal.  
+  **Solution**: Implemented a search modal with filtering and highlighting for a better user experience.
+- **Challenge**: Ensuring responsiveness across devices.  
+  **Solution**: Used Bootstrap for layout and added custom media queries in `styles.css`.
+
+## Future Improvements
+- Add backend integration for the contact form to send emails.
+- Implement more advanced search filters (e.g., by category).
+- Add a blog section to share updates and insights.
+  
+
+## Acknowledgments
+- **Bootstrap**: For responsive design and carousel component.
+- **Google Fonts**: For the Poppins font used in the design.
+- **Transparent Textures**: For subtle background patterns in sections.
+
+
