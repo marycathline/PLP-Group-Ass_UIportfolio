@@ -57,18 +57,18 @@ PLP-Group-Ass_UIportfolio/
 - **Explore Sections**: Scroll through the site to see animations, hover effects, and the testimonial carousel.
 
 ## Screenshots
-![Home Section](images/screenshot 0.png)
+![Home Section](images/screenshot0.png)
 
 - **Home Section**  
-  ![Home Section](images/Screenshot 1.png)
+  ![Home Section](images/Screenshot1.png)
 - **Projects Section with Search**  
-  ![Projects Section](images/Screenshot 3.png)
+  ![Projects Section](images/Screenshot3.png)
 - **Dark Mode**  
   ![Dark Mode](images/screenshot-dark-mode.png)
   - **Team Members Section**
-  ![Team Members](images/Screenshot 2.png)
+  ![Team Members](images/Screenshot2.png)
   - **Services Section**
-  ![Services](images/Screenshot 4.png)
+  ![Services](images/Screenshot4.png)
 
 
 
