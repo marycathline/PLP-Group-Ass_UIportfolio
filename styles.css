@@ -11,7 +11,11 @@
     color: #fff; /* White text (if you want to ensure it) */
     background-image: none; /* Remove the background image in dark mode */
   }
-  
+  .dark-mode h5 {
+    color: green; /* White text for headings in dark mode */ 
+    background-color: white; /* White background for headings in dark mode */
+    
+  }
   #home {
     color: white;
     position: relative;
@@ -37,3 +41,35 @@
     height: auto;
     animation: fadeIn 1s ease-in-out;
   }
+
+  .custom-gap {
+    margin-left: -10px; /* Negative margin to pull closer */
+    margin-right: -10px;
+  }
+  
+  .custom-gap > div {
+    padding-left: 50px; /* Smaller padding */
+    padding-right: 10px;
+  }
+  
+
+  .moving-text {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: moveLeftToRight 5s ease-in-out infinite;
+  }
+  
+  @keyframes moveLeftToRight {
+    0% {
+      transform: translateX(0%);
+    }
+    50% {
+      transform: translateX(20%); 
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
