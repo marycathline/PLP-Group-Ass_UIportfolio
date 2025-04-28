@@ -1,0 +1,56 @@
+
+
+
+/* Default style for the home section */
+#home {
+  min-height: 90vh;
+  background: url('images/backgroundimage.jpg') center center/cover no-repeat;
+  /* Other default styles */
+}
+
+/* Dark mode style for the home section */
+.dark-mode #home {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text (if you want to ensure it) */
+  background-image: none; /* Remove the background image in dark mode */
+}
+
+#home {
+  color: white;
+  position: relative;
+}
+
+#home::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background:  rgb(9, 9, 65); /* Optional dark overlay */
+  z-index: 1;
+}
+
+#home .container {
+  position: relative;
+  z-index: 2;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+section {
+  padding-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
